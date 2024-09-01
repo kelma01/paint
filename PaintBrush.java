@@ -151,7 +151,8 @@ class MainFrame extends JFrame implements MouseInputListener {
         mod_paneli.add(dikdortgen);
         mod_paneli.add(oval);
         mod_paneli.add(kalem);
-        mod_paneli.add(tasi);
+        //move does not work properly
+        //mod_paneli.add(tasi);
 
         ust_panel.add(mod_paneli,BorderLayout.CENTER);
         ust_panel.add(bar_paneli,BorderLayout.SOUTH);
